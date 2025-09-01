@@ -79,7 +79,7 @@ First you need to find a pool share. This share will stay in [PPLNS](https://en.
 **NOTE** If P2Pool doesn't have enough hashrate to find Monero blocks faster than every 6 hours on average (~15 MH/s), **not all your pool shares will result in a payout**. Even if pool hashrate is higher, bad luck can sometimes result in a share going through PPLNS window without a payout. But in the long run it will be compensated by other shares receiving multiple payouts - your payouts will average out to what you'd get with regular pool mining.
 
 ## Default P2Pool parameters
-
+  
 * Block time: 10 seconds
 * PPLNS window: up to 2160 blocks (6 hours, auto adjustable to balance payout sizes and frequency)
 * Minimum payout = Monero block reward/2160, ~0.00027 XMR
