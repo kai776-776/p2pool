@@ -18,7 +18,7 @@
     "root": {
       "inputs": {
         "nixpkgs": "nixpkgs",
-        "utils": "utils" 
+        "utils": "utils"
       }
     },
     "utils": {

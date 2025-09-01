@@ -20,20 +20,31 @@ These are 3rd-party pages. If they are down, it doesn't mean there is a problem 
 </a>
 ![clang-tidy](https://github.com/SChernykh/p2pool/actions/workflows/clang-tidy.yml/badge.svg)
 # Contents
-- [Pool mining vs Solo mining vs P2Pool mining](#pool-mining-vs-solo-mining-vs-p2pool-mining)
-- [Features](#features)
-- [How payouts work in P2Pool](#how-payouts-work-in-p2pool)
-- [Default P2Pool parameters](#default-p2pool-parameters)
-- [Monero version support](#monero-version-support)
-- [How to mine on P2Pool](#how-to-mine-on-p2pool)
-  - [General Considerations](#general-considerations)
-  - [GUI for P2Pool](#gui-for-p2pool)
-  - [Merge mining](#merge-mining)
-  - [GNU/Linux](#gnulinux)
-  - [Windows](#windows)
-- [Build instructions](#build-instructions)
-- [Reproducible builds](#reproducible-builds)
-- [Donations](#donations)
+- [Monero P2Pool](#monero-p2pool)
+    - [Build Status](#build-status)
+- [Contents](#contents)
+  - [Pool mining vs Solo mining vs P2Pool mining](#pool-mining-vs-solo-mining-vs-p2pool-mining)
+  - [Features](#features)
+  - [How payouts work in P2Pool](#how-payouts-work-in-p2pool)
+  - [Default P2Pool parameters](#default-p2pool-parameters)
+  - [Monero version support](#monero-version-support)
+  - [How to mine on P2Pool](#how-to-mine-on-p2pool)
+    - [General Considerations](#general-considerations)
+    - [GUI for P2Pool](#gui-for-p2pool)
+    - [Merge mining](#merge-mining)
+    - [GNU/Linux](#gnulinux)
+    - [Windows](#windows)
+  - [Build instructions](#build-instructions)
+    - [Prerequisites](#prerequisites)
+    - [Ubuntu 20.04](#ubuntu-2004)
+    - [Arch Linux](#arch-linux)
+    - [Nix/NixOS](#nixnixos)
+    - [Windows](#windows-1)
+    - [macOS](#macos)
+    - [FreeBSD](#freebsd)
+    - [Android (Termux)](#android-termux)
+  - [Reproducible builds](#reproducible-builds)
+  - [Donations](#donations)
 
 ## Pool mining vs Solo mining vs P2Pool mining
 
@@ -85,6 +96,7 @@ In order to continue mining on P2Pool, you must update both Monero and P2Pool so
 |v15, v16 (active after August 13th, 2022)|v0.18.0.0 or newer, v0.18.4.1 is recommended|v4.0 or newer
 
 ## How to mine on P2Pool
+
 
 ### General Considerations
 
